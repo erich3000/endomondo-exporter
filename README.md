@@ -1,5 +1,5 @@
 # endomondo-exporter
-Exports your endomono workouts grouped by month and year
+Exports you endomono workouts grouped by month and year
 
 ## Why i wrote this 
 
