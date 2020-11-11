@@ -11,7 +11,7 @@ As most Endomondo alternatives only can handle bulk gpx imports up to 25 files, 
 ## Getting started
 
 * fork or download this repository
-* make sure your have node 9.x installed
+* make sure your have node 10.x installed
 * perform ```npm install```
 * type in your endomondo credententials into ```credentials_template.json``` and rename the file to ```credentials.json```
 * call ```npm run export```

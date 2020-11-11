@@ -7,14 +7,13 @@
     "endomondo-api",
     "export"
   ],
-  "engines" : { 
-    "node" : ">=9.0.0 <11.0.0" 
+  "engines": {
+    "node": ">=10.0.0 <11.0.0"
   },
   "main": "export.js",
   "scripts": {
     "export": "node export.js"
   },
- 
   "author": "Jens Ihrig <jens.ihrig@mail.de>",
   "license": "Apache-2.0",
   "dependencies": {
