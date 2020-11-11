@@ -1,0 +1,25 @@
+{
+  "name": "endomondo-exporter",
+  "version": "1.0.0",
+  "description": "Exports your endomono workouts grouped by month and year",
+  "keywords": [
+    "endomondo",
+    "endomondo-api",
+    "export"
+  ],
+  "engines" : { 
+    "node" : ">=9.0.0 <11.0.0" 
+  },
+  "main": "export.js",
+  "scripts": {
+    "export": "node export.js"
+  },
+ 
+  "author": "Jens Ihrig <jens.ihrig@mail.de>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cross-fetch": "^3.0.6",
+    "endomondo-api-handler": "^7.3.32",
+    "fs-extra": "^9.0.1"
+  }
+}
