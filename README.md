@@ -15,4 +15,4 @@ As most Endomondo alternatives only can handle bulk gpx imports up to 25 files, 
 * perform ```npm install```
 * type in your endomondo credententials into ```credentials_template.json``` and rename the file to ```credentials.json```
 * call ```npm run export```
-* all your workouts will now be written into an folder called gpx. there you will find folders for the years and months of your workout.
+* all your workouts will now be written into a folder called ```./gpx```. there you will find folders for the years and months of your workout.
