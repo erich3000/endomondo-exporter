@@ -1,4 +1,4 @@
-urequire('cross-fetch/polyfill');
+require('cross-fetch/polyfill');
 const fse = require('fs-extra');
 const { Api } = require('endomondo-api-handler');
 const api = new Api();
